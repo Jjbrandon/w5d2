@@ -1,0 +1,89 @@
+body{
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+}
+
+#navh2{
+    display: inline-block;
+    color: rgb(152, 251, 152);
+    padding-left: 30px;
+    padding-top: 10px;
+    font-size: 27px;
+}
+
+.container2 {
+    width: 100%;
+    margin: 0 auto;
+}
+    
+    header{background: #24262b;
+        height: 60px;
+    }
+    
+    header::after{
+        content: '';
+    display: table;
+    clear:both;}
+    
+    nav{float: right;}
+    
+    nav ul {margin: 0;
+        padding-top: 6px;
+    padding-right: 40px; 
+    list-style: none;}
+    
+    nav li {display: inline-block;
+          padding-top: 18px;
+        position: relative;
+    }
+    
+    nav a{
+        text-decoration: none;
+    font-size: 12px; 
+    color:rgb(255, 255, 255); 
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     font-weight: 500;
+    margin-right: 80px;}
+    
+    nav a:hover {color:rgb(152, 251, 152);}
+    
+    nav a::before{ content: "";
+    display: block;
+    height: 5px;
+    width: 100%;
+    background-color:rgb(152, 251, 152);
+    position:absolute; top: 0; width: 00%;
+    transition: all ease-in-out 250ms;}
+    
+    nav a:hover::before{
+        width: calc(100% - 80px);
+    }
+
+    button{
+        font-size: 12px;
+        font-weight: 700;
+        width:72px;
+        border-radius: 4px;
+        padding-bottom: 1px;
+        margin-left: 50px;
+        transition: ease-in-out 0.2s;
+    }
+
+    button:hover{
+        transform: translateY(2px);
+    }
+
+    #button1{
+        background-color: rgb(152, 251, 152);
+        color:rgb(0, 0, 0);
+        border-color:rgb(152, 251, 152);
+    }
+
+    #button2{
+        background-color: rgb(152, 251, 152);
+        color:rgb(0, 0, 0);
+        border-color:rgb(152, 251, 152);
+        width: 90px;
+    }
+
+    
